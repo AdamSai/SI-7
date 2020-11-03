@@ -4,10 +4,6 @@
 
 The following glossary is created by using definitions found in: [Enterprise Integration Patterns by Gregor Hohpe and Bobby Woolf.](https://www.enterpriseintegrationpatterns.com/docs/EnterpriseIntegrationPatterns_HohpeWoolf_ch03.pdf)
 
-## Table of contents {ignore=true}
-
-[TOC]
-
 ## Message
 
 A message is an atomic packet of data that can be transmitted on a channel. A message consits of two parts:
@@ -61,13 +57,13 @@ A Message Endpoint is either used to send messages or receive them, but one inst
 
 Publish-subscribe pattern is a messaging pattern, where the senders of the message (**publisher**), do not program the messages to be sent directly to specific receivers (**subscribers**), but instead categorize published messages into classes.  
  In a **topic-based** system, messages are published to "topics" or named logical channels. Subscribers in a topic-based system will receive all messages published to the topics to which they subscribe. The publisher is responsible for defining the topics to which subscribers can subscribe.  
- In a **content-based** system, messages are only delivered to a subscriber if the attributes or content of those messages matches constraints defined by the subscriber. The subscriber is responsible for classifying the messages.[^1]
-[^1]: https://en.wikipedia.org/wiki/Publish–subscribe_pattern
+ In a **content-based** system, messages are only delivered to a subscriber if the attributes or content of those messages matches constraints defined by the subscriber. The subscriber is responsible for classifying the messages.  
+https://en.wikipedia.org/wiki/Publish–subscribe_pattern
 
 ## Message Oriented Middleware
 
-Message Oriented Middleware (**MOM**) is a concept, where you pass data between applications using a coommuncation channel that carries messages. Messages are usually sent and received asynchroonously. [^2]
-[^2]: https://www.oreilly.com/library/view/enterprise-service-bus/0596006756/ch05.html
+Message Oriented Middleware (**MOM**) is a concept, where you pass data between applications using a coommuncation channel that carries messages. Messages are usually sent and received asynchroonously.  
+https://www.oreilly.com/library/view/enterprise-service-bus/0596006756/ch05.html
 
 _Middleware categories:_
 
